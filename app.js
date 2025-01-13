@@ -75,7 +75,7 @@ const createObstacles = () => {
         obstacle.style.position = "absolute";
         obstacle.style.width = "100px";
         obstacle.style.height = "100px";
-        obstacle.style.backgroundColor = "blue";
+        obstacle.style.backgroundColor = "yellow";
 
         // Rastgele bir pozisyon belirle
         const randomX = Math.random() * (window.innerWidth - 50);
